@@ -27,6 +27,9 @@ OC版映客仿写链接：<https://github.com/CodeAcmen/TJPYingKe>
 
 ****如果喜欢觉得有用的给个start哦！
 
+
+##视频不清晰的原因是模拟器33%缩放下  还有gif录制压缩后造成的  你可以真🐔模拟，高清
+
 ![img](https://github.com/NorthDogLi/swift4.0_NDYKLiving/blob/master/NDYingKe_swift4/NHFX_GIF.gif) 
 
 
