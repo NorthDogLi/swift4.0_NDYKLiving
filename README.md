@@ -27,7 +27,7 @@ OC版映客仿写链接：<https://github.com/CodeAcmen/TJPYingKe>
 
 ****如果喜欢觉得有用的给个start哦！
 
-![img](https://github.com/NorthDogLi/swift4.0_NDYKLiving/master/NDYingKe_swift4/NHFX_GIF.gif) 
+![img](https://github.com/NorthDogLi/swift4.0_NDYKLiving/blob/master/NDYingKe_swift4/NHFX_GIF.gif) 
 
 
 
