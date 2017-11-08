@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NDLivingBottomView" customModule="NDYingKe_swift4" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RL9-Fo-P2k">
+                    <rect key="frame" x="10" y="2" width="44" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="h1K-wn-Zti"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_liao_h"/>
+                    <connections>
+                        <action selector="hotMessage:" destination="-1" eventType="touchUpInside" id="bUz-WK-T75"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BU-G4-a61">
+                    <rect key="frame" x="325" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="JS9-Z6-Ks5"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_guan_h"/>
+                    <connections>
+                        <action selector="hot_gobackClick:" destination="-1" eventType="touchUpInside" id="jtI-cr-i4W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpR-fc-LUw">
+                    <rect key="frame" x="225" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Lbf-ab-ocC"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_liwu_h"/>
+                    <connections>
+                        <action selector="hot_giftClick:" destination="-1" eventType="touchUpInside" id="5Gb-16-hNe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igy-Gd-Jkc">
+                    <rect key="frame" x="175" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="5x7-A1-U2K"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_xinxi_h"/>
+                    <connections>
+                        <action selector="hot_e_mailClick:" destination="-1" eventType="touchUpInside" id="01V-nx-Vvx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xB-Bx-Pzx">
+                    <rect key="frame" x="275" y="2" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="zrD-o0-UvN"/>
+                    </constraints>
+                    <state key="normal" image="mg_room_btn_fenxiang_h"/>
+                    <connections>
+                        <action selector="hot_shareClick:" destination="-1" eventType="touchUpInside" id="3i9-60-Chk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zpR-fc-LUw" firstAttribute="leading" secondItem="igy-Gd-Jkc" secondAttribute="trailing" constant="10" id="4aG-cH-Jv1"/>
+                <constraint firstItem="9BU-G4-a61" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="BdL-ox-UZq"/>
+                <constraint firstAttribute="bottom" secondItem="9BU-G4-a61" secondAttribute="bottom" constant="2" id="CRd-IM-hP7"/>
+                <constraint firstItem="igy-Gd-Jkc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="Cc6-va-1RA"/>
+                <constraint firstAttribute="bottom" secondItem="RL9-Fo-P2k" secondAttribute="bottom" constant="2" id="FXW-Xd-Mie"/>
+                <constraint firstAttribute="trailing" secondItem="9BU-G4-a61" secondAttribute="trailing" constant="10" id="M6k-YR-Vr0"/>
+                <constraint firstAttribute="bottom" secondItem="0xB-Bx-Pzx" secondAttribute="bottom" constant="2" id="NDJ-Tm-rhI"/>
+                <constraint firstItem="0xB-Bx-Pzx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="QG5-su-ALt"/>
+                <constraint firstItem="RL9-Fo-P2k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="eF7-pE-XX1"/>
+                <constraint firstItem="0xB-Bx-Pzx" firstAttribute="leading" secondItem="zpR-fc-LUw" secondAttribute="trailing" constant="10" id="fQZ-Em-Ccb"/>
+                <constraint firstItem="RL9-Fo-P2k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="hxS-CX-RTR"/>
+                <constraint firstItem="zpR-fc-LUw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="kos-kl-vk2"/>
+                <constraint firstItem="9BU-G4-a61" firstAttribute="leading" secondItem="0xB-Bx-Pzx" secondAttribute="trailing" constant="10" id="kxa-5A-wlw"/>
+                <constraint firstAttribute="bottom" secondItem="igy-Gd-Jkc" secondAttribute="bottom" constant="2" id="nlT-L0-aGy"/>
+                <constraint firstAttribute="bottom" secondItem="zpR-fc-LUw" secondAttribute="bottom" constant="2" id="xrg-fH-Bl1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-421" y="-174"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mg_room_btn_fenxiang_h" width="40" height="40"/>
+        <image name="mg_room_btn_guan_h" width="40" height="40"/>
+        <image name="mg_room_btn_liao_h" width="40" height="40"/>
+        <image name="mg_room_btn_liwu_h" width="40" height="40"/>
+        <image name="mg_room_btn_xinxi_h" width="40" height="40"/>
+    </resources>
+</document>
